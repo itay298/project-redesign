@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav id="main-navbar" class="navbar navbar-expand-lg bg-dark rounded-bottom position-fixed w-100" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="logo col-4">
+                <a href="./home.html" class="navbar-brand">Logo <span class="text-primary">.</span></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse navbar text-center col-4" id="navbarSupportedContent">
+                <ul class="navbar-nav main-pages-nav w-100 justify-content-center">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" aria-current="page">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" aria-current="page">Contact-us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" aria-current="page">About-us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-collapse navbar text-center col-4 " id="navbarSupportedContent">
+                <ul class="navbar-nav register-pages-nav w-100 justify-content-end">
+                    <li class="nav-item sign-up">
+                        <a href="#" class="nav-link" aria-current="page">Sign-up</a>
+                    </li>
+                    <li class="nav-item log-in">
+                        <a href="#" class="nav-link" aria-current="page">Log-in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel">
+            <div class="text-center text-white desc">
+                <div class="container-fluid">
+                    <div class="description">
+                        <div class="logo">
+                            <h1>Logo</h1>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button class="btn btn-primary">Shop</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Photo: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Photo</title><rect width="100%" height="100%" fill="#c3c3c3"></rect></svg>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Photo: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Photo</title><rect width="100%" height="100%" fill="#777"></rect></svg>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Photo: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Photo</title><rect width="100%" height="100%" fill="#888"></rect></svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="w-100">
+        <form class="w-50 mx-auto" action="." method="get">
+            <div class="container-fluid">
+                <div class="container">
+                    <fieldset class="row mt-5">
+                        <legend>Search for products:</legend>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                            <button class="btn btn-primary input-group-text" id="basic-addon1">Search</button>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </form>
+        <section class="products mt-5 mx-auto">
+            <div class="container-fluid text-center">
+                <div class="row gap-5">
+                  <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="product">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="product">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="product">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
