@@ -4,6 +4,7 @@
 
 #main-navbar {
     z-index: 100;
+    min-height: 72px;
 }
 
 header {
