@@ -79,15 +79,15 @@
             </div>
         </div>
     </header>
-    <main class="w-100">
-        <form class="w-50 mx-auto" action="." method="get">
+    <main class="w-100 position-sticky bg-white p-5">
+        <form action="." method="get">
             <div class="container-fluid">
                 <div class="container">
                     <fieldset class="row mt-5">
                         <legend>Search for products:</legend>
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" name="Search" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
-                            <button class="btn btn-primary input-group-text" id="basic-addon1">Search</button>I
+                            <button class="btn btn-primary input-group-text" id="basic-addon1">Search</button>
                         </div>
                     </fieldset>
                 </div>
@@ -100,7 +100,7 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="product">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h2 class="card-title">Card title</h2>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -110,7 +110,7 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="product">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h2 class="card-title">Card title</h2>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -120,7 +120,7 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="product">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h2 class="card-title">Card title</h2>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -131,6 +131,42 @@
               
         </section>
     </main>
+    <footer class="w-100 position-sticky bg-light z-2 p-5">
+        <div class="container-fluid">
+            <div class="container nav d-block">
+                <div class="logo text-center">
+                    <h3>Logo</h3>
+                </div>
+                <div class="description text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil.</p>
+                </div>
+                <nav class="navbar w-100 d-block">
+                    <ul class="navbar-nav main-pages-nav text-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" aria-current="page">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" aria-current="page">Contact-us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" aria-current="page">About-us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav register-pages-nav text-center">
+                        <li class="nav-item sign-up">
+                            <a href="#" class="nav-link" aria-current="page">Sign-up</a>
+                        </li>
+                        <li class="nav-item log-in">
+                            <a href="#" class="nav-link" aria-current="page">Log-in</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
