@@ -140,8 +140,12 @@
                 <div class="description text-center">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nihil.</p>
                 </div>
-                <nav class="navbar w-100 d-block">
-                    <ul class="navbar-nav main-pages-nav text-center">
+                <nav class="navbar w-100 justify-content-center align-items-stretch">
+                    
+                    <ul class="navbar-nav main-pages-nav text-center w-25 align-content-center">
+                        <div class="title nav-item">
+                            <h4>Main pages</h4>
+                        </div>
                         <li class="nav-item">
                             <a href="#" class="nav-link active" aria-current="page">Home</a>
                         </li>
@@ -155,7 +159,23 @@
                             <a href="#" class="nav-link" aria-current="page">About-us</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav register-pages-nav text-center">
+                    <form class="col-lg-4 col-12" action="." method="POST">
+                        <div class="container-fluid">
+                            <div class="container">
+                                <fieldset class="row mt-5">
+                                    <legend>Contact us:</legend>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" name="Search" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                                        <button class="btn btn-primary input-group-text" id="basic-addon1">Search</button>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav register-pages-nav text-center w-25 align-self-stretch">
+                        <div class="title nav-item">
+                            <h4>Register pages</h4>
+                        </div>
                         <li class="nav-item sign-up">
                             <a href="#" class="nav-link" aria-current="page">Sign-up</a>
                         </li>
@@ -164,6 +184,9 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="copyright text-center">
+                    <p class="text-dark fw-light">&copy;copyright</p>
+                </div>
             </div>
         </div>
     </footer>
