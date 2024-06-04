@@ -43,10 +43,6 @@ main {
     min-height: 500px;
 }
 
-.col .card {
-    width: 18rem;
-}
-
-.col {
+.card {
     width: 18rem;
 }
